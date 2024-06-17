@@ -86,7 +86,7 @@
                     <a class="page-scroll" href="#documents">Documents</a>
                   </li>
                   <li class="nav-item ml-5 lg:ml-11">
-                    <a class="page-scroll" href="#presentations">Presentations</a>
+                    <a class="page-scroll" href="#documents">Presentations</a>
                   </li>
                   </li>
                   <li class="nav-item ml-5 lg:ml-11">
@@ -637,10 +637,10 @@
         <!-- <h4 class="secondary_title">Final Reports</h4> -->
       </div>
 
-      <!-- <button id="toggleRow7" class="toggle-button">Poster</button>
+      <button id="toggleRow7" class="toggle-button">Poster</button>
       <div class="row justify-center" id="document-row-7" style="display: none;">
-        <h4 class="secondary_title">Poster</h4>
-      </div>  -->
+        <!-- <h4 class="secondary_title">Poster</h4> -->
+      </div> 
 
       <script>
         // toggle view
@@ -698,6 +698,15 @@
           }
         });
 
+        document.getElementById("toggleRow7").addEventListener("click", function () {
+          var row = document.getElementById("document-row-7");
+          if (row.style.display === "none") {
+            row.style.display = "flex";
+          } else {
+            row.style.display = "none";
+          }
+        });
+
 
 
         // resize pdf images to 150x150
@@ -720,7 +729,7 @@
         var documents2 = [{
 
           image: "assets/files/pdf.jpg",
-          pdf: "assets/files/TMP-24-064.pptx",
+          pdf: "assets/files/proposal/Proposal_Presentation.pdf",
           title: "Proposal Presentation",
         },
         
@@ -733,7 +742,7 @@
         },
         {
           image: "assets/files/pdf.jpg",
-          pdf: "assets/files/status_2/Status_Document_2-IT20658786.pdf",
+          pdf: "https://drive.google.com/drive/folders/1FW452u3rXenh2HFqw7BYOAE5-tdHkOy_?usp=sharing",
           title: "Status Document 2-IT20658786|M.A.E.Wijesinghe",
         },
         {
@@ -743,7 +752,7 @@
         },
         {
           image: "assets/files/pdf.jpg",
-          pdf: "assets/files/status_2/Status_Document_2-IT20666774.pdf",
+          pdf: "https://drive.google.com/drive/folders/1FW452u3rXenh2HFqw7BYOAE5-tdHkOy_?usp=sharing",
           title: "Status Document 2-IT20666774|K.Lahiru Gayashan",
         },
         {
@@ -753,7 +762,7 @@
         },
         {
           image: "assets/files/pdf.jpg",
-          pdf: "assets/files/status_2/Status_Document_2-IT20646042.pdf",
+          pdf: "https://drive.google.com/drive/folders/1FW452u3rXenh2HFqw7BYOAE5-tdHkOy_?usp=sharing",
           title: "Status Document 2-IT20646042|S.A.Abeyawikrama",
         },
         {
@@ -763,7 +772,7 @@
         },
         {
           image: "assets/files/pdf.jpg",
-          pdf: "assets/files/status_2/Status_Document_2-IT20667832.pdf",
+          pdf: "https://drive.google.com/drive/folders/1FW452u3rXenh2HFqw7BYOAE5-tdHkOy_?usp=sharing",
           title: "Status Document 2-IT20667832|H.D.D.P.Jayasinghe",
         },
 
@@ -771,13 +780,18 @@
 
         var documents4 = [{
           image: "assets/files/pdf.jpg",
-          pdf: "assets/files/PP1 - Presentation.pdf",
+          pdf: "assets/files/presentation/PP1_MindGuru.pdf",
           title: "Progress Presentation 01"
         },
         {
           image: "assets/files/pdf.jpg",
-          pdf: "assets/files/PP1 - Presentation.pdf",
+          pdf: "https://drive.google.com/drive/folders/1k-8sWeP-z-Wk0dQa84J7MbJLUJGvdqi5?usp=drive_link",
           title: "Progress Presentation 02",
+        },
+        {
+          image: "assets/files/pdf.jpg",
+          pdf: "assets/files/presentation/FINAL_PRESENTATION_Mind_Guru.pptx",
+          title: "Final Presentation ",
         },
 
         ];
@@ -790,30 +804,36 @@
 
         var documents6 = [{
           image: "assets/files/pdf.jpg",
-          pdf: "assets/files/final/IT20301040.pdf",
+          pdf: "https://drive.google.com/drive/folders/19poV-DgD2YXQc4yr2U1eHIxmCgbWfg-N?usp=sharing",
           title: "Final Report - Team"
         },
         {
           image: "assets/files/pdf.jpg",
-          pdf: "assets/files/final/IT20658786.pdf",
+          pdf: "https://drive.google.com/drive/folders/19poV-DgD2YXQc4yr2U1eHIxmCgbWfg-N?usp=sharing",
           title: "Final Report - IT20658786|M.A.E.Wijesinghe",
         },
         {
           image: "assets/files/pdf.jpg",
-          pdf: "assets/files/final/IT20666774.pdf",
+          pdf: "https://drive.google.com/drive/folders/19poV-DgD2YXQc4yr2U1eHIxmCgbWfg-N?usp=sharing",
           title: "Final Report -IT20666774|K.Lahiru Gayashan",
         },
         {
           image: "assets/files/pdf.jpg",
-          pdf: "assets/files/final/IT20646042.pdf",
+          pdf: "https://drive.google.com/drive/folders/19poV-DgD2YXQc4yr2U1eHIxmCgbWfg-N?usp=sharing",
           title: "Final Report - IT20646042|S.A.Abeyawikrama",
         },
         {
           image: "assets/files/pdf.jpg",
-          pdf: "assets/files/final/IT20667832.pdf",
+          pdf: "https://drive.google.com/drive/folders/19poV-DgD2YXQc4yr2U1eHIxmCgbWfg-N?usp=sharing",
           title: "Final Report - IT20667832|H.D.D.P.Jayasinghe",
         },
         ];
+
+        var documents7 = [{
+          image: "assets/files/pdf.jpg",
+          pdf: "https://drive.google.com/drive/folders/1eVgZ6rGsYD0PsWQsOUEvhpB6ktUutO2B?usp=sharing",
+          title: "Poster"
+        },];
 
 
         function createCard(parentElement, doc) {
@@ -873,6 +893,9 @@
 
         var row6 = document.getElementById("document-row-6");
         createRow(row6, documents6);
+
+        var row6 = document.getElementById("document-row-7");
+        createRow(row6, documents7);
 
 
         function downloadPDF(pdfUrl) {
