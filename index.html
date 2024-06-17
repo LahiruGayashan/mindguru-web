@@ -163,7 +163,7 @@
                 HEALTH FOR KIDS                
               </h2>
               <!-- <br><span class="text-theme-color">Template</span> -->
-              <p class="mt-8 lg:mr-8">
+              <p class="mt-8 lg:mr-7">
                 Designing and Implementing an emotion monitoring system for children under age 10.
               </p>
               <div class="hero_btn mt-10">
@@ -290,12 +290,7 @@
                 Objectives
               </h3>
               <p class="mt-4">
-                The MOODMate web app aims to enhance emotional well-being and relationships through advanced tech.
-                It improves audio-based emotion recognition with AI and image processing, providing real-time analysis. 
-                Using sentiment analysis, it offers personalized stress reduction recommendations. The platform facilitates
-                relationship management and improvement through AI-driven virtual characters, guiding users and fostering
-                emotional connections. With stress-relief games and access to counseling, MOODMate empowers users to navigate 
-                emotions and build fulfilling relationships.
+                Update soon
               </p>
             </div>
           </div>
@@ -601,423 +596,287 @@
         </div>
       </div>
 
-      <!-- container -->
-      <div class="container" style="justify-content:center;">
-        <button id="toggleRow1" class="toggle-button">Topic Assessment</button>
-        <div class="row justify-center" id="document-row-1" style="display: none;">
-          <!-- <h4 class="secondary_title">Project Registration Documents</h4> -->
-        </div>
-
-        <!-- Add a new row for the second row of cards with the same structure -->
-        <button id="toggleRow2" class="toggle-button">Project Proposal</button>
-        <div class="row justify-center" id="document-row-2" style="display: none;">
-          <!-- <h4 style="text-align: center;" class="secondary_title">Project Proposal</h4> -->
-        </div>
-
-        <button id="toggleRow3" class="toggle-button">Status Documents I</button>
-        <div class="row justify-center" id="document-row-3" style="display: none;">
-          <!-- <h4 class="secondary_title">Status Docoument</h4> -->
-        </div>
-
-        <button id="toggleRow4" class="toggle-button">Status Documents II</button>
-        <div class="row justify-center" id="document-row-4" style="display: none;">
-          <!-- <h4 class="secondary_title">Progress Presentations</h4> -->
-        </div>
-
-        <button id="toggleRow5" class="toggle-button">Research Paper</button>
-        <div class="row justify-center" id="document-row-5" style="display: none;">
-          <!-- <h4 class="secondary_title">Reserach Paper</h4> -->
-        </div>
-
-        <button id="toggleRow6" class="toggle-button">Final Report</button>
-        <div class="row justify-center" id="document-row-6" style="display: none;">
-          <!-- <h4 class="secondary_title">Final Reports</h4> -->
-        </div>
-
-        
-        
-        
-
-       
-        
+    <!-- container -->
+    <div class="container" style="justify-content:center;">
+      <button id="toggleRow1" class="toggle-button">Topic Assessment</button>
+      <div class="row justify-center" id="document-row-1" style="display: none;">
+        <!-- <h4 class="secondary_title">Project Registration Documents</h4> -->
       </div>
-    </div>
-  </section>
 
-  <!-- presentations -->
-  <section id="presentations" class="blog_area pt-120">
-    <div class="container">
-  <div class="row justify-center">
-    <div class="section_title text-center pb-6">
-      <h4 class="main_title">Mindගුරු Presentations</h4>
+      <!-- Add a new row for the second row of cards with the same structure -->
+      <button id="toggleRow2" class="toggle-button">Proposal Presentation</button>
+      <div class="row justify-center" id="document-row-2" style="display: none;">
+        <!-- <h4 style="text-align: center;" class="secondary_title">Project Proposal</h4> -->
+      </div>
 
+      <button id="toggleRow3" class="toggle-button">Status Documents</button>
+      <div class="row justify-center" id="document-row-3" style="display: none;">
+        <!-- <h4 class="secondary_title">Status Docoument</h4> -->
+      </div>
+
+      <button id="toggleRow4" class="toggle-button">Progress Presentation</button>
+      <div class="row justify-center" id="document-row-4" style="display: none;">
+        <!-- <h4 class="secondary_title">Progress Presentations</h4> -->
+      </div>
+
+      <button id="toggleRow5" class="toggle-button">Research Paper</button>
+      <div class="row justify-center" id="document-row-5" style="display: none;">
+        <!-- <h4 class="secondary_title">Reserach Paper</h4> -->
+      </div>
+
+      <button id="toggleRow6" class="toggle-button">Final Report</button>
+      <div class="row justify-center" id="document-row-6" style="display: none;">
+        <!-- <h4 class="secondary_title">Final Reports</h4> -->
+      </div>
+
+      <!-- <button id="toggleRow7" class="toggle-button">Poster</button>
+      <div class="row justify-center" id="document-row-7" style="display: none;">
+        <h4 class="secondary_title">Poster</h4>
+      </div>  -->
+
+      <script>
+        // toggle view
+        document.getElementById("toggleRow1").addEventListener("click", function () {
+          var row = document.getElementById("document-row-1");
+          if (row.style.display === "none") {
+            row.style.display = "flex";
+          } else {
+            row.style.display = "none";
+          }
+        });
+
+        document.getElementById("toggleRow2").addEventListener("click", function () {
+          var row = document.getElementById("document-row-2");
+          if (row.style.display === "none") {
+            row.style.display = "flex";
+          } else {
+            row.style.display = "none";
+          }
+        });
+
+        document.getElementById("toggleRow3").addEventListener("click", function () {
+          var row = document.getElementById("document-row-3");
+          if (row.style.display === "none") {
+            row.style.display = "flex";
+          } else {
+            row.style.display = "none";
+          }
+        });
+
+        document.getElementById("toggleRow4").addEventListener("click", function () {
+          var row = document.getElementById("document-row-4");
+          if (row.style.display === "none") {
+            row.style.display = "flex";
+          } else {
+            row.style.display = "none";
+          }
+        });
+
+        document.getElementById("toggleRow5").addEventListener("click", function () {
+          var row = document.getElementById("document-row-5");
+          if (row.style.display === "none") {
+            row.style.display = "flex";
+          } else {
+            row.style.display = "none";
+          }
+        });
+
+        document.getElementById("toggleRow6").addEventListener("click", function () {
+          var row = document.getElementById("document-row-6");
+          if (row.style.display === "none") {
+            row.style.display = "flex";
+          } else {
+            row.style.display = "none";
+          }
+        });
+
+
+
+        // resize pdf images to 150x150
+        function resizeImages() {
+          var images = document.getElementsByClassName("card_image");
+          for (var i = 0; i < images.length; i++) {
+            images[i].style.height = "150px";
+            images[i].style.width = "150px";
+          }
+        }
+
+        var documents = [{
+          image: "assets/files/pdf.jpg",
+          pdf: "assets/files/TAF.pdf",
+          title: "Topic Assessment",
+        },
+
+        ];
+
+        var documents2 = [{
+
+          image: "assets/files/pdf.jpg",
+          pdf: "assets/files/TMP-24-064.pptx",
+          title: "Proposal Presentation",
+        },
+        
+        ];
+
+        var documents3 = [{
+          image: "assets/files/pdf.jpg",
+          pdf: "assets/files/status_1/IT20301040.pdf",
+          title: "Status Document 1-IT20301040",
+        },
+        {
+          image: "assets/files/pdf.jpg",
+          pdf: "assets/files/status_2/IT20639044.pdf",
+          title: "Status Document 2-IT20639044",
+        },
+        {
+          image: "assets/files/pdf.jpg",
+          pdf: "assets/files/status_1/IT20647278.pdf",
+          title: "Status Document 1-IT20647278",
+        },
+        {
+          image: "assets/files/pdf.jpg",
+          pdf: "assets/files/status_2/IT20647278.pdf",
+          title: "Status Document 2-IT20647278",
+        },
+        {
+          image: "assets/files/pdf.jpg",
+          pdf: "assets/files/status_1/IT20301040.pdf",
+          title: "Status Document 1-IT20301040",
+        },
+        {
+          image: "assets/files/pdf.jpg",
+          pdf: "assets/files/status_2/IT20639044.pdf",
+          title: "Status Document 2-IT20639044",
+        },
+        {
+          image: "assets/files/pdf.jpg",
+          pdf: "assets/files/status_1/IT20647278.pdf",
+          title: "Status Document 1-IT20647278",
+        },
+        {
+          image: "assets/files/pdf.jpg",
+          pdf: "assets/files/status_2/IT20647278.pdf",
+          title: "Status Document 2-IT20647278",
+        },
+
+        ];
+
+        var documents4 = [{
+          image: "assets/files/pdf.jpg",
+          pdf: "assets/files/PP1 - Presentation.pdf",
+          title: "Progress Presentation 01"
+        },
+        {
+          image: "assets/files/pdf.jpg",
+          pdf: "assets/files/PP1 - Presentation.pdf",
+          title: "Progress Presentation 02",
+        },
+
+        ];
+
+        var documents5 = [{
+          image: "assets/files/pdf.jpg",
+          pdf: "assets/files/AN_ELDERLY_CARE_APP_FOR_SUPPORTING_SENIOR (1).pdf",
+          title: "Research Paper"
+        },];
+
+        var documents6 = [{
+          image: "assets/files/pdf.jpg",
+          pdf: "assets/files/final/IT20301040.pdf",
+          title: "Final Report - Team"
+        },
+        {
+          image: "assets/files/pdf.jpg",
+          pdf: "assets/files/final/IT20301040.pdf",
+          title: "Final Report - IT20301040",
+        },
+        {
+          image: "assets/files/pdf.jpg",
+          pdf: "assets/files/final/IT20639044.pdf",
+          title: "Final Report - IT20639044",
+        },
+        {
+          image: "assets/files/pdf.jpg",
+          pdf: "assets/files/final/IT20647278.pdf",
+          title: "Final Report - IT20647278",
+        },
+        {
+          image: "assets/files/pdf.jpg",
+          pdf: "assets/files/final/IT20664626.pdf",
+          title: "Final Report - IT20664626",
+        },
+        ];
+
+
+        function createCard(parentElement, doc) {
+          // Change parameter name from 'document' to 'doc'
+          var col = document.createElement("div");
+          col.className = "col-lg-4 col-md-6";
+
+          var singleFeature = document.createElement("div");
+          singleFeature.className = "single-feature-extended";
+
+          var card = document.createElement("div");
+          card.className = "card";
+          card.onclick = function () {
+            downloadPDF(doc.pdf); // Update parameter reference from 'document' to 'doc'
+          };
+
+          var cardImage = document.createElement("div");
+          cardImage.className = "card_image";
+          var img = document.createElement("img");
+          img.src = doc.image; // Update parameter reference from 'document' to 'doc'
+          img.alt = doc.title; // Update parameter reference from 'document' to 'doc'
+          cardImage.appendChild(img);
+
+          var content = document.createElement("div");
+          content.className = "content";
+          var h4 = document.createElement("h4");
+          h4.textContent = doc.title; // Update parameter reference from 'document' to 'doc'
+          content.appendChild(h4);
+
+          card.appendChild(cardImage);
+          card.appendChild(content);
+          singleFeature.appendChild(card);
+          col.appendChild(singleFeature);
+          parentElement.appendChild(col);
+        }
+
+        function createRow(parentElement, documents) {
+          documents.forEach(function (document) {
+            createCard(parentElement, document);
+          });
+        }
+
+        var row1 = document.getElementById("document-row-1");
+        createRow(row1, documents);
+
+        var row2 = document.getElementById("document-row-2");
+        createRow(row2, documents2);
+
+        var row3 = document.getElementById("document-row-3");
+        createRow(row3, documents3);
+
+        var row4 = document.getElementById("document-row-4");
+        createRow(row4, documents4);
+
+        var row5 = document.getElementById("document-row-5");
+        createRow(row5, documents5);
+
+        var row6 = document.getElementById("document-row-6");
+        createRow(row6, documents6);
+
+
+        function downloadPDF(pdfUrl) {
+          var link = document.createElement("a");
+          link.href = pdfUrl;
+          link.target = "_blank";
+          link.click();
+        }
+      </script>
     </div>
   </div>
-   <!-- container -->
-   <div class="container" style="justify-content:center;">
-    <button id="toggleRow8" class="toggle-button">Project Proposal Presentation</button>
-    <div class="row justify-center" id="document-row-8" style="display: none;">
-      <!-- <h4 class="secondary_title">Project Registration Documents</h4> -->
-    </div>
-
-    <!-- Add a new row for the second row of cards with the same structure -->
-    <button id="toggleRow9" class="toggle-button">Progress Presentation I</button>
-    <div class="row justify-center" id="document-row-9" style="display: none;">
-      <!-- <h4 style="text-align: center;" class="secondary_title">Project Proposal</h4> -->
-    </div>
-
-    <button id="toggleRow10" class="toggle-button">Progress Presentation II</button>
-    <div class="row justify-center" id="document-row-10" style="display: none;">
-      <!-- <h4 class="secondary_title">Status Docoument</h4> -->
-    </div>
-
-    <button id="toggleRow11" class="toggle-button">Final Presentation</button>
-    <div class="row justify-center" id="document-row-11" style="display: none;">
-      <!-- <h4 class="secondary_title">Progress Presentations</h4> -->
-    </div>
-    </div>
-  </section>
-  <script>
-
-
-    // toggle view documents
-    document.getElementById("toggleRow1").addEventListener("click", function () {
-      var row = document.getElementById("document-row-1");
-      if (row.style.display === "none") {
-        row.style.display = "flex";
-      } else {
-        row.style.display = "none";
-      }
-    });
-
-    document.getElementById("toggleRow2").addEventListener("click", function () {
-      var row = document.getElementById("document-row-2");
-      if (row.style.display === "none") {
-        row.style.display = "flex";
-      } else {
-        row.style.display = "none";
-      }
-    });
-
-    document.getElementById("toggleRow3").addEventListener("click", function () {
-      var row = document.getElementById("document-row-3");
-      if (row.style.display === "none") {
-        row.style.display = "flex";
-      } else {
-        row.style.display = "none";
-      }
-    });
-
-    document.getElementById("toggleRow4").addEventListener("click", function () {
-      var row = document.getElementById("document-row-4");
-      if (row.style.display === "none") {
-        row.style.display = "flex";
-      } else {
-        row.style.display = "none";
-      }
-    });
-
-    document.getElementById("toggleRow5").addEventListener("click", function () {
-      var row = document.getElementById("document-row-5");
-      if (row.style.display === "none") {
-        row.style.display = "flex";
-      } else {
-        row.style.display = "none";
-      }
-    });
-
-    document.getElementById("toggleRow6").addEventListener("click", function () {
-      var row = document.getElementById("document-row-6");
-      if (row.style.display === "none") {
-        row.style.display = "flex";
-      } else {
-        row.style.display = "none";
-      }
-    });
-
-    document.getElementById("toggleRow7").addEventListener("click", function () {
-      var row = document.getElementById("document-row-7");
-      if (row.style.display === "none") {
-        row.style.display = "flex";
-      } else {
-        row.style.display = "none";
-      }
-    });
-
-    // toggle view presentations 
-    document.getElementById("toggleRow8").addEventListener("click", function () {
-      var row = document.getElementById("document-row-8");
-      if (row.style.display === "none") {
-        row.style.display = "flex";
-      } else {
-        row.style.display = "none";
-      }
-    });
-
-    document.getElementById("toggleRow9").addEventListener("click", function () {
-      var row = document.getElementById("document-row-9");
-      if (row.style.display === "none") {
-        row.style.display = "flex";
-      } else {
-        row.style.display = "none";
-      }
-    });
-
-    document.getElementById("toggleRow10").addEventListener("click", function () {
-      var row = document.getElementById("document-row-10");
-      if (row.style.display === "none") {
-        row.style.display = "flex";
-      } else {
-        row.style.display = "none";
-      }
-    });
-
-    document.getElementById("toggleRow11").addEventListener("click", function () {
-      var row = document.getElementById("document-row-11");
-      if (row.style.display === "none") {
-        row.style.display = "flex";
-      } else {
-        row.style.display = "none";
-      }
-    });
-
-
-    // resize pdf images to 150x150
-    function resizeImages() {
-      var images = document.getElementsByClassName("card_image");
-      for (var i = 0; i < images.length; i++) {
-        images[i].style.height = "150px";
-        images[i].style.width = "150px";
-      }
-    }
-
-    var documents = [{
-      image: "assets/files/pdf.jpg",
-      pdf: "assets/files/TAF.pdf",
-      title: "Topic Assessment",
-    },
-
-    ];
-
-    var documents2 = [{
-      image: "assets/files/pdf.jpg",
-      pdf: "assets/files/proposal/IT20647414.pdf",
-      title: "Proposal Presentation - IT20658786",
-    },
-    {
-      image: "assets/files/pdf.jpg",
-      pdf: "assets/files/proposal/IT20648268.pdf",
-      title: "Proposal Presentation - IT20666774",
-    },
-    {
-      image: "assets/files/pdf.jpg",
-      pdf: "assets/files/proposal/IT20648886.pdf",
-      title: "Proposal Presentation - IT20648886",
-    },
-    {
-      image: "assets/files/pdf.jpg",
-      pdf: "assets/files/proposal/IT20651442.pdf",
-      title: "Proposal Presentation - IT20651442",
-    },
-
-    ];
-
-    var documents3 = [{
-      image: "assets/files/pdf.jpg",
-      pdf: "assets/files/status_1/IT20647414-Status_1.pdf",
-      title: "Status Document I -IT20647414",
-    },
-    {
-      image: "assets/files/pdf.jpg",
-      pdf: "assets/files/status_1/IT20648886-Status_1.pdf",
-      title: "Status Document I -IT20648886",
-    },
-    {
-      image: "assets/files/pdf.jpg",
-      pdf: "assets/files/status_1/IT20651442-Status_1.pdf",
-      title: "Status Document I -IT20651442",
-    },
-    {
-      image: "assets/files/pdf.jpg",
-      pdf: "assets/files/status_1/IT20647414-Status_1.pdf",
-      title: "Status Document I -IT20647414",
-    },
-
-    ];
-
-    var documents4 = [{
-      image: "assets/files/pdf.jpg",
-      pdf: "assets/files/status_2/IT20647414-Status_2.pdf",
-      title: "Status Document II -IT20647414",
-    },
-    {
-      image: "assets/files/pdf.jpg",
-      pdf: "assets/files/status_2/IT20648886-Status_2.pdf",
-      title: "Status Document II -IT20648886",
-    },
-    {
-      image: "assets/files/pdf.jpg",
-      pdf: "assets/files/status_2/IT20651442-Status_2.pdf",
-      title: "Status Document II -IT20651442",
-    },
-    {
-      image: "assets/files/pdf.jpg",
-      pdf: "assets/files/status_2/IT20647414-Status_2.pdf",
-      title: "Status Document II -IT20647414",
-    },
-
-    ];
-
-    var documents5 = [{
-      image: "assets/files/pdf.jpg",
-      pdf: "assets/files/research/Emotion Recognition and Sentiment Analysis for Relationship Buildup.pdf",
-      title: "Research Paper"
-    },
-
-    ];
-
-    var documents6 = [{
-      image: "assets/files/pdf.jpg",
-      pdf: "assets/files/final/2023-234_Final_Report.pdf",
-      title: "Final Report - Team"
-    },
-    {
-      image: "assets/files/pdf.jpg",
-      pdf: "assets/files/final/IT20647414 - Final Report.pdf",
-      title: "Final Report - IT20647414",
-    },
-    {
-      image: "assets/files/pdf.jpg",
-      pdf: "assets/files/final/IT20648886-Final Report.pdf",
-      title: "Final Report - IT20648886",
-    },
-    {
-      image: "assets/files/pdf.jpg",
-      pdf: "assets/files/final/IT20651442 - Final Report.pdf",
-      title: "Final Report - IT20651442",
-    },
-    ];
-    
-    var documents7 = [{
-      image: "assets/files/png.png",
-      pdf: "assets/files/poster/Poster.PNG",
-      title: "Research Poster"
-    },
-    ];
-
-    var documents8 = [{
-      image: "assets/files/pptx.png",
-      pdf: "assets/files/presentation/TMP-2023-24-133 proposal.pptx",
-      title: "Research Proposal Presentation",
-    },
-    ];
-
-    var documents9 = [{
-
-      image: "assets/files/pptx.png",
-      pdf: "assets/files/presentation/TMP-2023-24-133-PP1.pptx",
-      title: "Progress Presentation I",
-    },
-    ];
-
-    var documents10 = [{
-      image: "assets/files/pptx.png",
-      pdf: "assets/files/presentation/TMP-2023-24-133- PP2.pptx",
-      title: "Progress Presentation II",
-    },
-    ];
-
-    var documents11 = [{
-      image: "assets/files/pptx.png",
-      pdf: "assets/files/presentation/TMP-2023-24-133-Final.pptx",
-      title: "Final Presentation",
-    },
-    ];
-
-
-    function createCard(parentElement, doc) {
-      // Change parameter name from 'document' to 'doc'
-      var col = document.createElement("div");
-      col.className = "col-lg-4 col-md-6";
-
-      var singleFeature = document.createElement("div");
-      singleFeature.className = "single-feature-extended";
-
-      var card = document.createElement("div");
-      card.className = "card";
-      card.onclick = function () {
-        downloadPDF(doc.pdf); // Update parameter reference from 'document' to 'doc'
-      };
-
-      var cardImage = document.createElement("div");
-      cardImage.className = "card_image";
-      var img = document.createElement("img");
-      img.src = doc.image; // Update parameter reference from 'document' to 'doc'
-      img.alt = doc.title; // Update parameter reference from 'document' to 'doc'
-      cardImage.appendChild(img);
-
-      var content = document.createElement("div");
-      content.className = "content";
-      var h4 = document.createElement("h4");
-      h4.textContent = doc.title; // Update parameter reference from 'document' to 'doc'
-      content.appendChild(h4);
-
-      card.appendChild(cardImage);
-      card.appendChild(content);
-      singleFeature.appendChild(card);
-      col.appendChild(singleFeature);
-      parentElement.appendChild(col);
-    }
-
-    function createRow(parentElement, documents) {
-      documents.forEach(function (document) {
-        createCard(parentElement, document);
-      });
-    }
-
-    var row1 = document.getElementById("document-row-1");
-    createRow(row1, documents);
-
-    var row2 = document.getElementById("document-row-2");
-    createRow(row2, documents2);
-
-    var row3 = document.getElementById("document-row-3");
-    createRow(row3, documents3);
-
-    var row4 = document.getElementById("document-row-4");
-    createRow(row4, documents4);
-
-    var row5 = document.getElementById("document-row-5");
-    createRow(row5, documents5);
-
-    var row6 = document.getElementById("document-row-6");
-    createRow(row6, documents6);
-
-    var row7 = document.getElementById("document-row-7");
-    createRow(row7, documents7);
-
-    var row8 = document.getElementById("document-row-8");
-    createRow(row8, documents8);
-
-    var row9 = document.getElementById("document-row-9");
-    createRow(row9, documents9);
-
-    var row10 = document.getElementById("document-row-10");
-    createRow(row10, documents10);
-
-    var row11 = document.getElementById("document-row-11");
-    createRow(row11, documents11);
-
-
-
-    function downloadPDF(pdfUrl) {
-      var link = document.createElement("a");
-      link.href = pdfUrl;
-      link.target = "_blank";
-      link.click();
-    }
-  </script>
-
+</section>
 
   <!--====== Doc PART ENDS ======-->
 
@@ -1181,7 +1040,7 @@
             <div class="single_team_item mx-auto">
               <div class="single_team mx-3">
                 <div class="team_image relative">
-                  <img src="assets/images/Dinesh.png" alt="team" class="w-full" />
+                  <img src="assets/images/Dinesh.jpg" alt="team" class="w-full" />
                   <ul class="social absolute top-4 right-8">
                     <li>
                       <a href="#" target="_blank"><i
